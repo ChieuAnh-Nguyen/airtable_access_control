@@ -6,7 +6,6 @@ debugpy==1.5.1
 decorator==5.1.0
 entrypoints==0.3
 idna==3.3
-ipykernel==6.4.2
 ipython==7.28.0
 ipython-genutils==0.2.0
 jedi==0.18.0
