@@ -22,3 +22,7 @@ Start Date: 10/23
 🐢 10/23
 
 Stored environment variables. Can flag unwanted emails and duplicate emails.
+
+🐢 10/29
+
+Created functions. Next step: parameterize email so it can be any attribute.
