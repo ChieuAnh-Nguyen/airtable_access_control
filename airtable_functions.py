@@ -28,13 +28,11 @@ def flag_disallowed_values(csv_name, csv_column_name, all_values):
 
 
 def flag_duplicate_values(all_values):
-    """flag of duplicate occurences. 1 means value exists twice"""
+    """flag number of occurences for duplicate values"""
     dup_dict = {}
     for value in all_values:
-        duplicate_count = 0
         if (all_values.count(value) > 1) and (value not in dup_dict):
-            duplicate_count += 1
-            dup_dict[value] = duplicate_count
+            dup_dict[value] = all_values.count(value)
     return dup_dict
 
 
@@ -48,6 +46,7 @@ def main():
     allowed_values, disallowed_values = flag_disallowed_values(
         'V1_allowed_emails.csv', 'Email Address', all_values)
     dup_dict = flag_duplicate_values(all_values)
+    print(dup_dict)
 
 
 if __name__ == "__main__":
