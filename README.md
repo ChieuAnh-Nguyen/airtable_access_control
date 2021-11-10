@@ -1,6 +1,6 @@
 # airtable_access_control
 
-## About 
+## About
 
 This project flags duplicate emails and those that are not allowed in your Airtable.
 
@@ -18,6 +18,7 @@ This project flags duplicate emails and those that are not allowed in your Airta
 4. Create reuseable code to keep intruders out of my Airtables!
 
 ## Progress tracker:
+
 Start Date: 10/23
 
 🐢 10/23
@@ -26,4 +27,8 @@ Stored environment variables. Can flag unwanted emails and duplicate emails.
 
 🐢 10/29
 
-Created functions. Next step: parameterize email so it can be any attribute.
+Created functions.
+
+🐢 11/09
+
+Parameterized email so it can be any attribute
