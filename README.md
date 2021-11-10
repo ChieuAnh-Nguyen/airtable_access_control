@@ -8,6 +8,7 @@ This project flags duplicate emails and those that are not allowed in your Airta
 
 1. Delete records whos emails have been flagged.
 2. Send records that have been flagged or deleted to admin in an email (gmail API)
+3. Parameterize email so it can be any attribute
 
 ## Goals:
 
