@@ -4,7 +4,7 @@ import pandas as pd
 
 
 def list_all_values(attribute, table):
-    """all_values: lists all values in specified attribute
+    """all_values: lists all values in specified attribute excluding those with missing values
     records_missing_value: lists records that is missing the specified attribute
     """
     all_values = []
