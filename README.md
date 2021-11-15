@@ -37,3 +37,5 @@ Parameterized email so it can be any attribute
 🐢 11/12
 
 Added email sender from code snippets repo and added main. Can now send email alerts if Airtable contains duplicates, unwanted emails, or just send all records. Next steps: create cron job to alert
+
+testing testing testing
