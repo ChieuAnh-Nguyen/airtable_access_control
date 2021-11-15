@@ -26,12 +26,12 @@ print(records_missing_value)
 if len(dup_dict) != 0:
     msg = create_email(
         f"Your Airtable '{table_name}' Contains Duplicates in Attribute: {attribute}", email_address, email_address, str(dup_dict))
-    # send_email(email_address, email_password, msg)
+    send_email(email_address, email_password, msg)
     print(msg)
 
 # if Airtable contains unwanted attribute
 if len(disallowed_values) != 0:
     msg = create_email(
         f"Your Airtable '{table_name}' Contains Unwanted Records in Attribute: {attribute}", email_address, email_address, str(disallowed_values))
-    # send_email(email_address, email_password, msg)
+    send_email(email_address, email_password, msg)
     print(msg)
