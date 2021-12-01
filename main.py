@@ -12,7 +12,7 @@ table = pyairtable.Table(api_key, base_id, table_name)
 
 """Calling airtable_functions"""
 attribute = 'Email'
-csv_name = 'V1_allowed_emails.csv'
+csv_name = 'csv/V1_allowed_emails.csv'
 csv_column_name = 'Email Address'
 all_values, records_missing_value = list_all_values(attribute, table)
 allowed_values, disallowed_values = flag_disallowed_values(
